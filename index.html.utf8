@@ -1,0 +1,1318 @@
+<!doctype html>
+<html>
+<head>
+<title>海淘神器</title>
+<link rel="shortcut icon" href="http://a.tbcdn.cn/apps/e/base/favicon.ico" type="image/x-icon">
+</head>
+<body><script type="text/javascript">
+(function (d) {
+var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=&aplus");
+t.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
+
+<link rel="stylesheet" href="http://a.tbcdn.cn/apps/e/??brix/1.0/brix-min.css,ecommon/130924/header.css">
+<script type="text/javascript" src="/js/kissy/seed-min.js"></script>
+<script type="text/javascript" src="/js/kissy/brix-min.js"></script>
+	<style type="text/css">
+		/* 去除MAC下字体加粗 */
+		h1,h2,h3,h4,h5,h6 {
+			text-rendering: optimizelegibility;
+		}
+		* {
+			-webkit-font-smoothing: antialiased;
+		}
+
+		/* RESET */
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: "microsoft yahei","微软雅黑E\8F6F\96C5\9ED1";
+		}
+		body .dialog {
+			position: fixed;
+			_position: absolute;
+		}
+		a{
+			text-decoration: none;
+		}
+
+		/* 开始 */
+		body{
+			background-color: #EBEBEB;
+		}
+		/* UP Part ************/
+		.up{
+			height: 545px;
+			background: #925534  url('http://gtms01.alicdn.com/tps/i1/T12VjEFl8dXXbl_xPR-1400-545.png') center 0 no-repeat;
+			overflow: visible;
+		}
+		.up-mid{
+			margin: auto;
+			position: relative;
+			width: 1304px;
+			height: 545px;
+		}
+		.up-btn{
+			position: absolute;
+			top: 25px;
+			vertical-align: center;
+			color: white;
+			padding: 5px 10px;
+			border-radius: 3px;
+		}
+
+		.up-btn:hover {
+			background: rgba(72,51,44,0.5);
+		}
+		.up-btn a{
+			color: #FFFFFF;
+			font-size: 15px;
+			text-decoration: none;
+			text-shadow	: 0px 1px 1px #333;
+
+		}
+		.up-btn a:hover {
+			text-decoration: none;
+		}
+		.up-btn1 {
+			left: 170px;
+		}
+		.up-btn-ico{
+			display: block;
+			float: left;
+			width: 30px;
+			height: 20px;
+			position: relative;
+			bottom: 1px;
+			background-image: url('http://gtms01.alicdn.com/tps/i1/T1w.DFFjhbXXbV8KjX-1024-400.png');
+		}
+		.up-btn1 .up-btn-ico{
+			background-position: -224px -286px;
+		}
+		.up-btn2{
+			left: 308px;
+		}
+		.up-btn2 .up-btn-ico{
+			background-position: -266px -286px;
+		}
+		.up-btn3{
+			left: 430px;
+		}
+		.up-btn3 .up-btn-ico{
+			background-position: -312px -286px;
+		}
+		#slide-prev{
+			position: absolute;
+			left: 540px;
+			top: 250px;
+			width: 50px;
+			height: 80px;
+			background-image: url('http://gtms01.alicdn.com/tps/i1/T1w.DFFjhbXXbV8KjX-1024-400.png');
+			background-position: -738px -260px;
+		}
+		#slide-prev:hover, #slide-prev:active{
+			background-position: -557px -260px;
+			cursor: pointer;
+		}
+		#slide-next{
+			position: absolute;
+			left: 1130px;
+			top: 260px;
+			width: 50px;
+			height: 80px;
+			background-image: url('http://gtms01.alicdn.com/tps/i1/T1w.DFFjhbXXbV8KjX-1024-400.png');
+			background-position: -644px -260px;
+		}
+		#slide-next:hover, #slide-next:active{
+			background-position: -825px -260px;
+			cursor: pointer;
+		}
+		#slide-nav{
+			position: absolute;
+			z-index: 10;
+			top: 460px;
+			left: 220px;
+		}
+		#slide-nav li{
+			float: left;
+		}
+		#slide-nav li{
+			display: block;
+			cursor: pointer;
+			width: 10px;
+			height: 10px;
+			line-height: 10px;
+			border-radius: 5px;
+			margin-right: 10px;
+			background-color: #FFFFFF;
+			font-size: 0;
+		}
+		#slide-nav li.current{
+			background-color: #AAAAAA;
+		}
+		#slide-main{
+			position: absolute;
+			top:118px;
+			left: 591px;
+			width: 520px;
+			height:480px;
+			overflow: hidden;
+		}
+		#up-install{
+			padding: 8px 0 0 10px;
+			position: absolute;
+			cursor: pointer;
+			left: 170px;
+			top:427px;
+			width: 205px;
+			height: 35px;
+			color: #7B1B1D;
+			font-size: 21px;
+			border-radius: 5px;
+			background-color: #EBEBEB;
+			border-bottom: 1px solid #A9A9A9;
+		}
+		#up-install span{
+			display: block;
+			float: left;
+			width: 50px;
+			height: 35px;
+			background-image: url('http://gtms01.alicdn.com/tps/i1/T1w.DFFjhbXXbV8KjX-1024-400.png');
+			background-position: -49px -354px;
+		}
+		#up-install:hover{
+			background-color: #F2F2F2;
+        	text-decoration:none;
+			cursor:pointer;
+		}
+		#up-install:active {
+			border-bottom: none;
+			border-top: 1px solid #A9A9A9
+		}
+
+		/* MID Part */
+		.mid{
+			height: 722px;
+			font-size: 14px;
+			color: #474747;
+		}
+		.mid h3{
+			font-size: 23px;
+			margin-bottom:10px;
+		}
+		.mid-mid{
+			margin: auto;
+			height: 732px;
+			width: 990px;
+		}
+		.mid-content{
+			float: left;
+		}
+		.mm1, .mm2{
+			height: 290px;
+		}
+		.mm3, .mm4{
+			height: 223px;
+		}
+		.mm5, .mm6{
+			height: 209px;
+		}
+		.mmp{
+			position: relative;
+			background-image: url('http://gtms01.alicdn.com/tps/i1/T1w.DFFjhbXXbV8KjX-1024-400.png');
+		}
+		.mmt{
+			position: relative;
+		}
+		.mm1, .mm3, .mm5{
+			width: 495px;
+		}
+		.mm2, .mm4, .mm6{
+			width: 495px;
+		}
+		.mm1 .mmp{
+			width: 300px;
+			height: 200px;
+			left: 100px;
+			top: 80px;
+			background-position: -20px 0;
+		}
+		.mm2 .mmt{
+			width: 395px;
+			top:125px;
+			left: 10px;
+		}
+		.mm3 .mmt{
+			width: 395px;
+			top:55px;
+			left: 100px;
+		}
+		.mm4 .mmp{
+			width: 270px;
+			height: 170px;
+			left: 55px;
+			top: 25px;
+			background-position: -380px -40px;
+		}
+		.mm5 .mmp{
+			width: 280px;
+			height: 170px;
+			top: 20px;
+			left: 135px;
+			background-position: -695px -40px;
+		}
+		.mm6 .mmt{
+			width: 395px;
+			top: 60px;
+			left: 10px;
+		}
+		.clearfix{
+			clear: both;
+		}
+
+		.mid-line{
+			height: 1px;
+			background-color: #e1e1e1;
+			border-top: 1px solid #f8f8f8;
+			border-bottom: 1px solid #e7e7e7;
+		}
+
+		.m-detail{
+			font-size: 14px;
+			float: right;
+			position: relative;
+			top: 20px;
+		}
+		.m-detail .arrow {
+			display: inline-block;
+			font-style: normal;
+			width: 8px;
+			height: 8px;
+			background: url(http://gtms01.alicdn.com/tps/i1/T1w.DFFjhbXXbV8KjX-1024-400.png) -271px -235px no-repeat;
+		}
+		.m-detail a{
+			color: #474747;
+		}
+		.m-detail a:hover {
+			color: #9a5633;
+			text-decoration: none;
+		}
+		.m-detail a:hover .arrow {
+			background-position: -381px -235px;
+		}
+		#down{
+			margin: auto;
+			height: 459px;
+			width: 1044px;
+		}
+		#down h2 {
+			font-size: 22.5px;
+		}
+		#d-title{
+			margin: 40px 0 20px 20px;
+		}
+		.d-site{
+			list-style: none;
+			float: left;
+			display: inline;
+			margin: 16px 20px;
+			position: relative;
+		}
+
+		.d-site a {
+			display: block;
+			border: 1px solid #EBEBEB;
+		}
+
+		.d-site a img {
+			vertical-align: middle;
+		}
+
+		.d-site a:hover {
+			border: 1px solid #CFCFCF;
+		}
+
+		/* downpop */
+		.dialog-ext-mask {
+			  background-color: #000;
+			  opacity: 0.5;
+			  filter: alpha(opacity=40);
+		}
+		.btnarea .btn-item{
+		    background-color: #892500;
+		    background: -webkit-gradient(linear, left top, right top, from(#892500), to(#791600));
+			background: -webkit-linear-gradient(top, #892500, #791600);
+			background: -moz-linear-gradient(top, #892500, #791600);
+			background: -o-linear-gradient(top, #892500, #791600);
+			background: -ms-linear-gradient(top, #892500, #791600);
+			background: linear-gradient(top, #892500, #791600);
+		    border-radius: 4px;
+		    border: 1px solid #610000;
+		    display: inline-block;
+		    font-size: 20px;
+		    color: #fff;
+		    letter-spacing:1px;
+		    padding: 0 13px 2px;
+		    height: 40px;
+		    line-height: 40px;
+		}
+		.btnarea .btn-item:hover{
+
+        text-decoration:none;
+		  background: -webkit-gradient(linear, left top, right top, from(#912500), to(#811d00));
+			background: -webkit-linear-gradient(top, #912500, #811d00);
+			background: -moz-linear-gradient(top, #912500, #811d00);
+			background: -o-linear-gradient(top, #912500, #811d00);
+			background: -ms-linear-gradient(top, #912500, #811d00);
+			background: linear-gradient(top, #912500, #811d00);
+			background-color: #912500;
+		}
+		.btnarea .btn-item:active{
+		  background: -webkit-gradient(linear, left top, right top, from(#791600), to(#892500));
+			background: -webkit-linear-gradient(top, #791600, #892500);
+			background: -moz-linear-gradient(top, #791600, #892500);
+			background: -o-linear-gradient(top, #791600, #892500);
+			background: -ms-linear-gradient(top, #791600, #892500);
+			background: linear-gradient(top, #791600, #892500);
+			background-color: #791600;
+		}
+		.btnarea .chrome{
+		  margin-right: 19px;
+		  padding-right:30px;
+		}
+		.btnarea .chrome span,.btnarea .htbrowser span,.btnarea .down span,.btnarea .tbplug span{
+		    width:25px;
+		    height: 25px;
+		    display: inline-block;
+		    background: url(http://img01.taobaocdn.com/tps/i1/T14ElJFdJbXXa5Mf6v-150-280.png) no-repeat 0 -17px;
+		    vertical-align: middle;
+		    margin-right: 10px;
+		}
+		.btnarea .htbrowser span{
+		    background-position: -39px -17px;
+		}
+		.btnarea .down span{
+		  background-position: -76px -16px;
+		  width: 29px;
+		  height: 29px;
+		}
+		.btnarea .tbplug span{
+		  background-position: -105px -58px;
+		  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://img01.taobaocdn.com/tps/i1/T1cu4zFgFdXXcCXlfb-25-25.png");
+		    _ background-image: none;
+		}
+		.down-con .helpinfo a{
+		    color: #fff;
+		    margin-left: 25px;
+		    font-size: 12px;
+		}
+		.down-con .helpinfo a span{
+		    background: url(http://img01.taobaocdn.com/tps/i1/T14ElJFdJbXXa5Mf6v-150-280.png) no-repeat;
+		    width: 15px;
+		    height: 15px;
+		    display: inline-block;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		    position: relative;
+		    top: -2px;
+		}
+		.down-pop{
+		    background:#eaeaea;
+		    width: 490px;
+		    z-index: 9999;
+		    position: relative;
+		}
+		.down-pop h2{
+		    padding: 8px 0 15px 30px;
+		}
+		.down-pop .pop-con{
+		    background: #fff;
+		    padding: 30px 35px 40px;
+		    font-size: 12px;
+		}
+		.down-pop .pop-con .btnarea{
+		  margin: 0;
+		}
+		.down-pop .pop-con .btnarea .btn-item {
+		  font-size: 16px;
+		  margin: 0;
+		}
+		.down-pop .pop-con .btnarea dl{
+		  clear: both;
+		}
+		.down-pop .pop-con .btnarea dl dt{
+		  margin:0 20px 0 0;
+		  _margin-bottom:10px;
+		}
+
+		.down-pop .pop-con .btnarea dl dd a{
+		  color: #ff8400;
+		}
+		.down-pop .pop-con .btnarea dl dd img{
+		  margin: 10px 0;
+		}
+		.down-pop .pop-con .btn{
+		    margin: 0 0 15px;
+		}
+		.down-pop .pop-con dl{
+		    margin-bottom: 20px;
+		    overflow: hidden;
+		}
+		.down-pop .pop-con dt{
+		    color: #8a2600;
+		    margin: 10px 0;
+		    float: left;
+		}
+		.down-pop .pop-con dd{
+		    color: #666;
+		    font-size: 16px;
+		    margin-top: 10px;
+		    height: 40px;
+		}
+		.down-pop .pop-con dd span{
+		    position: relative;
+		    top: 3px;
+		    color: #da0000;
+		    margin-right:5px;
+		    font-size: 16px;
+		}
+		.down-pop .close{
+		    position: absolute;
+		    top: 15px;
+		    right: 15px;
+		    background: url(http://img01.taobaocdn.com/tps/i1/T14ElJFdJbXXa5Mf6v-150-280.png) no-repeat -52px -257px;
+		    width: 10px;
+		    height: 10px;
+		    cursor:pointer;
+		}
+		.down-pop .close:hover{
+		    background-position: -72px -257px;
+		}
+
+
+		/*dialog*/
+		.dialog-ext-mask {
+		  background-color: #000;
+		  opacity: 0.5;
+		  filter: alpha(opacity=40);
+		}
+		.dialog {
+		  position: absolute;
+		  left: -99999px;
+		  top: -99999px;
+		  z-index: 9999;
+		}
+		.dialog .dialog-contentbox {
+		  -webkit-border-radius: 2px;
+		  -moz-border-radius: 2px;
+		  border-radius: 2px;
+		  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.dialog .dialog-ext-close {
+		  display: none;
+		}
+		.dialog .dialog-ext-close:hover .dialog-ext-close-x {
+		  color: #488fcd;
+		  font-size: 28px;
+		  line-height: 28px;
+		  left: 0px;
+		  top: 0px;
+		}
+		.dialog .dialog-ext-close-x {
+		  font-family: "uxiconfont";
+		  font-style: normal;
+		  color: #ccc;
+		  font-size: 16px;
+		  line-height: 16px;
+		  position: absolute;
+		  left: 6px;
+		  top: 6px;
+		}
+
+		.dialog-left .dialog-contentbox {
+		  -webkit-box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.1);
+		  -moz-box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.1);
+		  box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.1);
+		  border-right: none;
+		}
+		.dialog-right .dialog-contentbox {
+		  -webkit-box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);
+		  -moz-box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);
+		  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);
+		  border-left: none;
+		}
+		.dialog-up .dialog-contentbox {
+		  -webkit-box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+		  -moz-box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+		  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+		  border-bottom: none;
+		}
+		.dialog-down .dialog-contentbox {
+		  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+		  -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+		  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+		  border-top: none;
+		}
+
+		/* site hover */
+		.d-site .site-description{
+			width: 200px;
+			display: none;
+			position: absolute;
+			left: -45px;
+			top: 65px;
+			border: 1px solid #EBEBEB;
+			z-index: 9999;
+			background-color: #FFFFFF;
+			font-size: 12px;
+			padding: 20px;
+			box-shadow:0 1px 1px #ccc;
+		}
+
+		.d-site:hover .site-description {
+			display: block;
+		}
+
+		.d-site .site-description p {
+			line-height: 1.5;
+		}
+
+		.d-site .site-description h4{
+			font-size: 16px;
+			margin-bottom: 5px;
+		}
+		.d-site .site-description li{
+			list-style: square;
+			list-style-position: inside;
+			margin: 10px 0;
+		}
+		.d-site .site-description hr{
+			color: #f0f0f0;
+			background: #f0f0f0;
+			height: 1px;
+			line-height: 1px;
+			border: none;
+			margin: 10px 0;
+		}
+
+		.d-site .site-description .arrow {
+			position: absolute;
+			left: 102px;
+			top: -16px;
+			border: 8px solid transparent;
+			border-bottom-color: #fff;
+		}
+	</style>
+
+	<div class="up">
+		<div class="up-mid">
+			<div class="up-btn up-btn1">
+				<a target="_blank" href="http://8.etao.com/yitaohaitao/thread-2688308-714371644-0-1-detail.htm?spm=0.0.0.0.hLM8hI">
+					<span class="up-btn-ico"></span>
+					安装说明
+				</a>
+			</div>
+			<div class="up-btn up-btn2">
+				<a target="_blank" href="http://e.weibo.com/etaohaitao?spm=0.0.0.0.hLM8hI">
+					<span class="up-btn-ico"></span>
+					加关注
+				</a>
+			</div>
+			<div class="up-btn up-btn3">
+				<a target="_blank" href="http://8.etao.com/yitaohaitao/thread-2688308-710452177-0-1-detail.htm?spm=0.0.0.0.hLM8hI">
+					<span class="up-btn-ico"></span>
+					问题反馈
+				</a>
+			</div>
+			<a id="up-install" href="javascript:void(0)">
+				<span></span><p>立即安装试用</p>
+			</a>
+			<div id="slide-prev"></div>
+			<div id="slide-next"></div>
+			<div id="slide-main">
+				<ul id="slide-nav" class="tab-nav">
+				</ul>
+				<div id="slide-content" class="tab-content">
+					<div id="slide-tab1" class="tab-pannel" style="display:block">
+						<img src="/img/T1FOjGFXFXXXcr9q.C-540-480.png">
+					</div>
+					<div id="slide-tab2" class="tab-pannel" style="display:none">
+						<img src="/img/T1mu2BFkRbXXcr9q.C-540-480.png">
+					</div>
+					<div id="slide-tab3" class="tab-pannel" style="display:none">
+						<img src="/img/T1CSjyFgBfXXcr9q.C-540-480.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mid">
+		<div class="mid-mid">
+
+			<div class="mid-1">
+				<div class="mm1 mid-content">
+					<div class="mmp"></div>
+				</div>
+				<div class="mm2 mid-content">
+					<div class="mmt">
+						<h3>使用神器，享转运优惠价</h3>
+						<p>在神器已覆盖的海外网站下单时，神器可以帮您自动填写转运公司地址，同时独享转运费用优惠价！</p>
+						<p class="m-detail"><a target="_blank" href="http://8.etao.com/yitaohaitao/thread-2688308-714371644-0-1-detail.htm">查看详情 <i class="arrow"></i></a></p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="mid-line"></div>
+
+			<div class="mid-2">
+				<div class="mm3 mid-content">
+					<div class="mmt">
+						<h3>自动计算到手价！自动中英翻译！</h3>
+						<p>您不再需要查询外币汇率，神器会根据商家提供的商品重量，为您自动估算出商品的人民币到手价！同时神器还提供中英文单词自动翻译、国际尺码转换等功能。</p>
+						<p class="m-detail"><a target="_blank" href="http://8.etao.com/yitaohaitao/thread-2688308-714371644-0-1-detail.htm">查看详情 <i class="arrow"></i></a></p>
+					</div>
+				</div>
+				<div class="mm4 mid-content">
+					<div class="mmp"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+
+			<div class="mid-line"></div>
+
+			<div class="mid-3">
+				<div class="mm5 mid-content">
+					<div class="mmp"></div>
+				</div>
+				<div class="mm6 mid-content">
+					<div class="mmt">
+						<h3>全程物流追踪，包裹状态及时提醒！</h3>
+						<p>您只需要在“我的运单”中添加您的海外包裹单号，神器会随时帮您更新包裹状态，及时提醒您处理入库包裹。</p>
+						<p class="m-detail"><a target="_blank" href="http://8.etao.com/yitaohaitao/thread-2688308-714371644-0-1-detail.htm">查看详情 <i class="arrow"></i></a></p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="mid-line"></div>
+		</div>
+	</div>
+	<div id="down">
+		<h2 id="d-title">支持网站</h2>
+		<ul>
+
+			<li class="d-site">
+
+                    <a href="http://www.amazon.com/"><img src="/img/T1aXLEFhdcXXaGV2M_-130-55.png" alt="amazon"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>amazon</h4>
+
+
+						<p>美国最大电商公司。几乎没有什么是你找不到的商品，价格也极其竞争力，是海淘最热门的网站。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.diapers.com/"><img src="/img/T1zgzAFkdcXXaGV2M_-130-55.png" alt="diapers"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>Diapers</h4>
+
+
+						<p>美国最大的母婴用品网站之一。洗护用品、保健品、尿片、辅食、哺育用品、座椅推车一应俱全，是母婴海淘首选。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.puritan.com/"><img src="/img/T1m3bJFbNXXXaGV2M_-130-55.png" alt="puritan"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>Puritan's Pride</h4>
+
+
+						<p>普瑞丁创立于1960年美国纽约长岛的健康食品公司，美国最大的保健品公司之一,从事维生素，矿物质及有关健康，美容，减肥等食品的开发，研制，生产。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.rei.com/"><img src="/img/T1U6bFFndbXXaGV2M_-130-55.png" alt="rei"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>REI</h4>
+
+
+						<p>美国全球最大的户外用品连锁零售组织，它目前的规模相当于中国国内最大的户外用品零售公司的50倍，REI的网站，同时在线陈列超过40000种商品。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.dpbolvw.net/click-5844139-11248841?url=http%3A%2F%2Fwww.shopbop.com%3Fextid%3Daffprg-%25zp"><img src="/img/T1ldvIFiBXXXaGV2M_-130-55.png" alt="shopbop"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>SHOPBOP</h4>
+
+
+						<p>Amazon旗下时尚女装轻奢网站， 现已推出了600余个系列的设计师时装和配饰，无论您喜爱什么风格身处何种场合，总有一款适合您。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>可直邮</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.6pm.com/"><img src="/img/T1P.LuFcFgXXaGV2M_-130-55.png" alt="6PM"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>6PM</h4>
+
+
+						<p>Amazon旗下美国折扣鞋最多、最大的购物网站之一。每天都会推出一些品牌折扣商品，有童装、童鞋、男女成人衣服和鞋子、包包、行李箱等。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.walgreens.com/"><img src="/img/T1si_EFjhcXXaGV2M_-130-55.png" alt="walgreens"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>Walgreens</h4>
+
+
+						<p>Walgreens是美国保健药品连锁机构，致力于满足50岁以上人群的健康保健需求，为良好的健康管理配备了专业的医疗资源，让您的晚年生活更加阳光健康！</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.saksfifthavenue.com/Entry.jsp"><img src="/img/T1JuvJFh4XXXaGV2M_-130-55.png" alt="SAKS"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>Saks</h4>
+
+
+						<p>Saks第五大道是一个时尚精品、奢侈品网站，致力于提供高品质的服饰及服务，喜欢一线大牌的亲不容错过哦！</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.gnc.com/"><img src="/img/T1XhzAFfheXXaGV2M_-130-55.png" alt="GNC"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>GNC</h4>
+
+
+						<p>GNC公司1935年成立，多年来专注于健康方面、保健品的研发，是全球熟知的保健品品牌。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.gymboree.com/"><img src="/img/T1b3bhFfdhXXaGV2M_-130-55.png" alt=""></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>GYMBOREE</h4>
+
+
+						<p>GYMBOREE金宝贝是全球领先婴幼儿早教中心及知名儿童服装零售品牌，该网站主要零售高品质儿童服装。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.iherb.com/"><img src="/img/T15zjKFXtXXXaGV2M_-130-55.png" alt="iherb"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>iHerb</h4>
+
+
+						<p>iHerb网站零售母婴用品和保健品，因为可以直邮中国，且支持支付宝付款，所以在海淘母婴群中非常有人气。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>可直邮</li>
+													<li>支持支付宝</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.net-a-porter.com/"><img src="/img/T1jwrCFbpbXXaGV2M_-130-55.png" alt="netaporter"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>NET-A-PORTER</h4>
+
+
+						<p>NET-A-PORTER是一个全球首屈一指的时尚奢侈品购物网站，有大量的新锐一线设计师品牌和商品。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>可直邮</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://shop.nordstrom.com/"><img src="/img/T1f7HgFm8hXXaGV2M_-130-55.png" alt="Nordstrom"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>Nordstrom</h4>
+
+
+						<p>Nordstrom创立于1901年，是美国大型综合百货公司，其中不乏大量的服饰配件一线品牌。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.albeebaby.com/"><img src="/img/T1rtnAFkJeXXaGV2M_-130-55.png" alt="Albeebaby"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>Albeebaby</h4>
+
+
+						<p>AlbeeBaby是雅虎旗下的婴幼儿产品网上零售店，其中海淘推车、安全座椅最为热销。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.bhphotovideo.com/"><img src="/img/T1bwvzFgFfXXaGV2M_-130-55.png" alt="BH"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>B&amp;H</h4>
+
+
+						<p>BH photovideo是一个美国专业摄影摄像类网上商城，出售数码摄像机、投影仪、专业摄影机等等。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.asos.com/"><img src="/img/T1FALBFlRbXXaGV2M_-130-55.png" alt="asos"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>ASOS</h4>
+
+
+						<p>ASOS是英国最红的少女风格时装网店，设计风格非常时尚。ASOS崇尚明星时尚穿衣主张，名模凯特·摩丝的仿制服饰是其最热销的产品之一。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>可直邮</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+			<li class="d-site">
+
+                    <a href="http://www.drugstore.com/"><img src="/img/T1kXjBFm4eXXaGV2M_-130-55.png" alt="DrugStore"></a>
+
+				<div class="site-description">
+                	<i class="arrow"></i>
+
+						<h4>DrugStore</h4>
+
+
+						<p>美国最大的母婴保健品网站之一，销售范围包括：处方药、化妆护肤品、宠物周边、食品及玩具等等，是海淘母婴人群最热门的网站之一。</p>
+
+					<hr>
+					<p>提供服务</p>
+					<ul>
+
+													<li>需转运</li>
+													<li>支持国内信用卡</li>
+													<li>海外正品</li>
+
+					</ul>
+				</div>
+			</li>
+
+		</ul>
+	</div>
+
+	<script type="text/template" id="J_downpop">
+		<div class="dialog-ext-mask" id="matte" style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9998;">
+		</div>
+		<div class="down-pop">
+		  <h2><img src="http://img04.taobaocdn.com/tps/i4/T1Bu0tFhNaXXXka8Tj-181-71.png"></h2>
+		  <div class="pop-con">
+		    <div class="btnarea">
+		      <dl>
+		        <dt><a href="javascript:void(0);" class="btn-item chrome"><span></span>Chrome插件</a></dt>
+		        <dd>需在<a href="http://www.google.cn/intl/zh-CN/chrome/browser/" target="_blank">Chrome浏览器</a>下运行。</dd>
+		        <dt class="chrome_install_error"><i></i>chrome暂不稳定，请下载海淘专版浏览器使用，或稍后再试！</dt>
+		      </dl>
+		      <dl>
+		        <dt><a href="http://img03.taobaocdn.com/tfscom/T1pOhDFkFdXXXSspjX.crx" target="_blank" class="btn-item tbplug"><span></span>淘宝浏览器插件</a></dt>
+		        <dd>需在<a href="http://browser.taobao.com/" target="_blank">淘宝浏览器</a>下运行。</dd>
+		      </dl>
+		      <dl class="htb">
+		        <dt><a href="http://download.browser.taobao.com/client/browser/down.php?bind=haitao&pid=0080_2050
+		" target="_blank" class="btn-item htbrowser"><span></span>海淘专版浏览器</a></dt>
+		        <dd>下载后双击自动安装！</dd>
+		      </dl>
+		    </div>
+		  <a href="#" title="关闭" class="close" id="btnHide"></a>
+		</div>
+    </script>
+
+	<script type="text/javascript">
+		KISSY.use(
+			'gallery/slide/1.0/',
+			function(S, Slide) {
+				var config = {
+					autoSlide: true,
+					effect: 'hSlide',
+                    eventype:'click',
+					timeout: 8000,
+					speed: 400,
+					selectedClass: 'current',
+					carousel: false,
+					touchmove: true,
+					layerSlide: true,
+					webkitOptimize: true,
+					defaultTab: 0
+				}
+				var mainSlider = new Slide("#slide-main", config);
+
+				S.one("#slide-prev").on("click", function(e){
+					e.halt();
+					mainSlider.previous().stop().play();
+				})
+				S.one("#slide-next").on("click", function(e){
+					e.halt();
+					mainSlider.next().stop().play();
+				})
+			}
+		)
+
+		/*弹出层*/
+		KISSY.use("brix/gallery/dialog/", function(S, Dialog) {
+
+			function chromeClickHandler(e) {
+				var me = this;
+				if (KISSY.UA.chrome && KISSY.UA.chrome >= 15) {
+					e.preventDefault();
+					try {
+						chrome.webstore.install("https://chrome.google.com/webstore/detail/kllepffflhcllhdogahaifpfodgglilc", function() {
+							KISSY.one(".chrome_install_error").hide();
+						}, function(str) {
+							if (str != "User cancelled install") {
+								KISSY.log(str);
+								KISSY.one(".chrome_install_error").show();
+								//window.open(KISSY.one(me).attr("href"));
+							}
+						});
+					} catch (e) {
+						window.open("https://chrome.google.com/webstore/detail/kllepffflhcllhdogahaifpfodgglilc");
+					}
+				}
+			}
+
+			var config = {
+				tmpl: S.one("#J_downpop").html(),
+				align: {
+					node: null,
+					points: ['cc', 'cc'],
+					offset: [0, 0]
+				}
+			}
+			var dialog = new Dialog(config);
+
+			S.one('#up-install').on('click', function() {
+				dialog.show();
+				KISSY.one(".chrome_install_error").hide();
+				S.one('#btnHide').on('click', function() {
+					dialog.hide();
+				});
+				KISSY.one(".chrome").on("click", chromeClickHandler);
+			});
+		});
+
+	</script>
+	<div id="etao-footer">
+   <div id="etao-footer-bd">
+       <div class="etao-footer-list dib-wrap justify wo-justify">
+           <dl class="etao-footer-item dib">
+               <dt>关于我们</dt>
+               <dd>
+                   <a href="http://www.etao.com/whyetao.html" target="_blank" title="关于一淘">关于一淘</a>
+               </dd>
+               <dd>
+                   <a href="http://www.etao.com/law.html" target="_blank" title="免责声明">免责声明</a>
+               </dd>
+               <dd>
+                   <a href="http://job.taobao.com/zhaopin/list.php?q=&division=%E4%B8%80%E6%B7%98&location=&fc=&sc=&tc=&type=&page=1" target="_blank" title="诚聘英才">诚聘英才</a>
+               </dd>
+           </dl>
+
+           <dl class="etao-footer-item dib">
+               <dt>商家合作</dt>
+               <dd>
+                   <a href="http://open.etao.com/" target="_blank" title="商家入驻">商家入驻</a>
+               </dd>
+               <dd>
+                   <a href="http://open.etao.com/my/seller_list.htm" target="_blank" title="工作平台">工作平台</a>
+               </dd>
+               <dd>
+                   <a href="http://s.etao.com/help.php?forhelp=apply" target="_blank" title="活动报名">活动报名</a>
+               </dd>
+           </dl>
+
+		   <dl class="etao-footer-item dib">
+                <dt>手机一淘</dt>
+                <dd>
+                    <a class="etao-scan" href="http://www.etao.com/go/act/etao/android.php" target="_blank" title="">
+                        <img src="/img/T1TI94FbBaXXXuS9bn-75-75.png_60x60.jpg" alt="手机一淘">
+                    </a>
+                </dd>
+           </dl>
+
+           <dl class="etao-footer-item dib">
+               <dt>帮助中心</dt>
+               <dd>
+                   <a href="http://s.etao.com/help.php" target="_blank" title="新手指南">新手指南</a>
+               </dd>
+               <dd>
+                   <a href="http://buy.etao.com/roboter/redirect.htm" target="_blank" title="智能客服">智能客服</a>
+               </dd>
+               <dd>
+                   <a href="http://8.etao.com/yitao/bar-658273-0-0-1-list.htm" target="_blank" title="我要提问">我要提问</a>
+               </dd>
+           </dl>
+
+           <dl class="etao-footer-item dib">
+               <dt>网站地图</dt>
+               <dd>
+                   <a href="http://www.etao.com/list.html" target="_blank" title="优惠推荐">优惠推荐</a>
+               </dd>
+               <dd>
+                   <a href="http://s.etao.com/charlist.html" target="_blank" title="热门商品">热门商品</a>
+               </dd>
+               <dd>
+                   <a href="http://wanke.etao.com/linksAgg.html" target="_blank" title="玩客精选">玩客精选</a>
+               </dd>
+           </dl>
+       </div>
+
+       <div class="etao-link">
+         <div class="etao-link-list dib-wrap">
+            <a target="_blank" class="dib" href="http://page.1688.com/shtml/about/ali_group1.shtml">阿里巴巴集团</a>
+               <a target="_blank" class="dib" href="http://www.alibaba.com/">阿里巴巴国际站</a>
+               <a target="_blank" class="dib" href="http://www.1688.com/">阿里巴巴中国站</a>
+               <a target="_blank" class="dib" href="http://www.aliexpress.com/">全球速卖通</a>
+               <a target="_blank" class="dib" href="http://www.taobao.com/">淘宝网</a>
+               <a target="_blank" class="dib" href="http://www.tmall.com/">天猫</a>
+               <a target="_blank" class="dib" href="http://ju.taobao.com/">聚划算</a>
+               <a target="_blank" class="dib" href="http://www.etao.com/">一淘</a>
+               <a target="_blank" class="dib" href="http://www.alimama.com/">阿里妈妈</a>
+               <a target="_blank" class="dib" href="http://www.aliyun.com/">阿里云计算</a>
+               <a target="_blank" class="dib" href="http://www.yunos.com/">云OS</a>
+               <a target="_blank" class="dib" href="http://www.net.cn/">万网</a>
+               <a target="_blank" class="dib" href="https://www.alipay.com/">支付宝</a>
+         </div>
+         <div class="etao-copyright">
+             Copyright&nbsp;&#169;&nbsp;2010-2013&nbsp;ETAO.COM&nbsp;版权所有
+         </div>
+         <p>增值电信业务经营许可证：浙B2-20080224</p>
+      </div>
+   </div>
+ </div>
+<script>
+KISSY.ready(function(S) {
+	S.SidePannel.init({show:'all',channel:'当前页面'});
+});
+</script>
+<style>#etao-footer-bd .etao-link-list a {padding: 0 4px;}</style>
+
+ </body></html>
